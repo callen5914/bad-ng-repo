@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyDrvDPNxBMd_7IujBemlzl-WP5_XKqpE6U',
+    authDomain: 'megaphone-fire.firebaseapp.com',
+    databaseURL: 'https://megaphone-fire.firebaseio.com',
+    projectId: 'megaphone-fire',
+    storageBucket: 'megaphone-fire.appspot.com',
+    messagingSenderId: '735399999664'
+  }
 };
 
 /*
